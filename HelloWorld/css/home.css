@@ -2,6 +2,7 @@
     font-family: LovelyCoffee;
     src: url(../fonts/LovelyCoffee-jEVeO.ttf);
 }
+body {background-color:#D3D3D3; }
 h1 {
     margin-top: 30px;
     margin-bottom: 10px;
@@ -12,28 +13,58 @@ h1 {
 }
 h2 {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color:#637f19;
     font-family: LovelyCoffee; 
-    font-size: 64px; 
+    font-size: 72px; 
     text-align: center;
+}
+.image {
+    width: 180px;
+    height: 240px;
 }
 .row {
     text-align: center;
 } 
 .socialbox {
     margin: auto;
+    margin-bottom: 5px;
     background-color: black;
     color: white;
     width: 240px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
-.flex-center {
+.flex-left {
     display: flex;
     justify-content: left;
     align-items: center;
 }
+.left-padding {
+    padding-left: 5px;
+}
 .socialimage {
     padding-right: 5px;
+}
+.whitedropshadow {
+    text-shadow: black 2px 1px;
+}
+.whitedropshadow1 {
+    text-shadow: black 2px 1px;
+}
+
+button.fire .social-user {
+    display: none;
+}
+
+button.fire:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+button.fire:hover .social-media {
+    display: none;
+}
+button.fire:hover .social-user {
+    display: inline;
 }
