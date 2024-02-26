@@ -19,7 +19,7 @@ h2 {
     font-size: 72px; 
     text-align: center;
 }
-.image {
+.image img {
     width: 180px;
     height: 240px;
 }
@@ -49,9 +49,6 @@ h2 {
 .whitedropshadow {
     text-shadow: black 2px 1px;
 }
-.whitedropshadow1 {
-    text-shadow: black 2px 1px;
-}
 
 button.fire .social-user {
     display: none;
@@ -67,4 +64,26 @@ button.fire:hover .social-media {
 }
 button.fire:hover .social-user {
     display: inline;
+}
+.sidenav {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav1 {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
